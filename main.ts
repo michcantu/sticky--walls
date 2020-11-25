@@ -655,11 +655,12 @@ input.onButtonPressed(Button.AB, function () {
     basic.clearScreen()
     if (score >= 30) {
         while (true) {
-            basic.showString("Pro")
+            basic.showString("You're a Pro")
         }
     } else {
         while (score < 30) {
             basic.showString("You can do better")
+            basic.showString("try again")
         }
     }
 })
